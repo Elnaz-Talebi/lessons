@@ -1,0 +1,103 @@
+@media only screen and (min-width: 601px) {
+    .header{
+   text-align: left;
+   font-size: 5em;
+  }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header{
+   text-align: left;
+   font-size: 3em;
+  }
+  }
+  
+  body {  
+  background-image: url(https://raw.githubusercontent.com/Elnaz-Talebi/Art-Gallery/refs/heads/main/images/Brush%20struk.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 4%;
+  }
+  
+  .established {
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  
+  .poster {
+   img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%; 
+  }
+  }
+  
+  .grid {
+    display: grid;
+    
+  }
+  .grid-inline {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    column-gap: 3em;
+    width: 90%;
+    border: 2px;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  
+  .artist-box-1 {
+    border: outset;
+    background-image: url(https://img.freepik.com/free-photo/blue-stain-white-background_1160-857.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%; 
+  }
+  }
+  
+  .artist-box-2 {
+    border: outset;
+    background-image: url(https://img.freepik.com/free-photo/blue-stain-white-background_1160-857.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;    
+  }
+  }  
+  
+  .artist-box-3 {
+    border: outset;
+    background-image: url(https://img.freepik.com/free-photo/blue-stain-white-background_1160-857.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    }
+    }
+  
+  
+  
