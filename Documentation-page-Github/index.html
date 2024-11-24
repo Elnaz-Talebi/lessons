@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Github Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+  <body>
+    <nav id="navbar">
+        <header class="head-nav">Github Technical Documentation</header>
+        <div class="nav-item"><a class="nav-link" href="#part-1">1. What is GitHub?</a></div>
+        <div class="nav-item"><a class="nav-link" href="#part-2">2. Key Features of GitHub</a></div>
+        <div class="nav-item"><a class="nav-link" href="#part-3">3. Getting Started with GitHub</a></div>
+        <div class="nav-item"><a class="nav-link" href="#part-4">4. Repositories and Version Control</a></div>
+        <div class="nav-item"><a class="nav-link" href="#part-5">5. Collaboration on GitHub</a></div>
+        <div class="nav-item"><a class="nav-link" href="#part-6">6. GitHub Actions</a></div>
+        <div class="nav-item"><a class="nav-link" href="#part-7">7. Exploring GitHub Pages</a></div>
+        <div class="nav-item"><a class="nav-link" href="#part-8">8. Security Features</a></div>
+        <div class="nav-item"><a class="nav-link" href="#part-9">9. Advanced GitHub Tools</a></div>
+        <div class="nav-item"><a class="nav-link" href="#part-10">10. GitHub for Teams</a></div>
+
+    </nav>
+    <main id="main-doc">
+      <section>
+        <h2>Introduction</h2>
+        <p>Welcome to the GitHub documentation page! GitHub is a web-based platform that provides hosting for version control using Git. It is widely used by developers, teams, and organizations to manage code, collaborate on projects, and build software efficiently. Whether you're a beginner learning Git or an experienced developer managing complex repositories, GitHub offers tools to streamline your workflow.</p>
+      </section>
+      <section id="part-1" class="main-section">
+        <header><h2>1. What is GitHub?</h2></header>
+        <p>GitHub is a version control platform built on Git, a distributed version control system. It allows you to:</p>
+        
+        <ul>
+            <li>Host repositories online.</li>
+            <li>Collaborate on code with teams.</li>
+            <li>Manage project versions effectively.</li>
+        </ul>
+        <h4>Steps to Get Started:</h4>
+        <ol>
+            <li>Visit <a href="https://github.com/" target="_blank">GitHub's homepage</a> and create an account.</li>
+            <li>Install Git on your computer (<a href="https://git-scm.com/downloads" target="_blank">Git Download</a>).</li>
+            <li>Explore public repositories to learn about existing projects.</li>
+        </ol>
+        
+      </section>
+      <section id="part-2" class="main-section">
+        <header><h2>2. Key Features of GitHub</h2></header>
+        <p>GitHub offers a variety of features to enhance development:</p>
+        
+        <ul>
+            <li><strong>Repositories:</strong> Store and organize your project code.</li>
+            <li><strong>Issues:</strong> Track bugs, tasks, and enhancements.</li>
+            <li><strong>Pull Requests:</strong> Collaborate on code changes.</li>
+            <li><strong>Actions:</strong> Automate workflows and CI/CD pipelines.</li>
+            <li><strong>GitHub Pages:</strong> Host static websites directly from your repository.</li>
+        </ul>
+        <h4>Explore Each Feature:</h4>
+        <ul>
+            <li><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories" target="_blank">Create your first repository</a>.</li>
+            <li>Learn about <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues" target="_blank">Issues and Labels</a>.</li>
+            <li>Set up a <a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions workflow</a>.</li>
+        </ul>
+        
+      </section>
+      <section id="part-3" class="main-section">
+        <header><h2>3. Getting Started with GitHub</h2></header>
+        
+        <h4>Steps:</h4>
+        <ol>
+            <li><strong>Create an Account:</strong> <a href="https://github.com/" target="_blank">Sign up for GitHub</a>.</li>
+            <li><strong>Install Git:</strong> Download Git from <a href="https://git-scm.com/downloads" target="_blank">git-scm.com</a> and follow the installation guide.</li>
+            <li><strong>Set Up Git Locally:</strong>
+                <div class="code-box">
+                <div><code>git config --global user.name "Your Name"</code></div>
+                <div><code>git config --global user.email "your.email@example.com"</code></div>
+                </div>
+            </li>
+            <li><strong>Create a Repository:</strong>
+                <ul>
+                    <li>Click "New" on your GitHub dashboard.</li>
+                    <li>Follow the instructions to initialize your repository.</li>
+                </ul>
+            </li>
+        </ol>      
+        <h4>Resources:</h4>      
+        <ul>
+            <li><a href="https://docs.github.com/en/get-started" target="_blank">GitHub Basics.</a></li>
+        </ul>
+      </section>
+      <section id="part-4" class="main-section">
+        <header><h2>4. Repositories and Version Control</h2></header>
+        <p>Repositories are at the core of GitHub.</p>
+        <h4>Steps to Create and Manage a Repository:</h4>
+        <ol>
+            <li><strong>Create a Repository:</strong>
+                <ul>
+                    <li>Go to your GitHub dashboard and click "New Repository."</li>
+                    <li>Add a name, description, and initialize with a README.</li>
+                </ul>
+            </li>
+            <li><strong>Clone a Repository Locally:</strong>
+                <div class="code-box">
+                  <code>git clone https://github.com/username/repository-name.git</code>
+                </div>
+            </li>
+
+            <li><strong>Make Changes and Push to GitHub:</strong>
+                <div class="code-box">
+                <div><code>git add .</code></div>
+                <div><code>git commit -m "Your commit message"</code></div>
+                <div><code>git push origin main</code></div>
+            </div>
+            </li>
+        </ol>
+
+        <h4>Resources:</h4>
+        <ul>
+            <li><a href="https://docs.github.com/en/repositories" target="_blank">Working with Repositories</a>.</li>
+        </ul>
+        
+      </section>
+      <section id="part-5" class="main-section">
+        <header><h2>5. Collaboration on GitHub</h2></header>
+        <p>GitHub simplifies teamwork with features like Pull Requests and Code Reviews.</p>
+        <h4>Steps to Collaborate:</h4>
+        <ol>
+            <li><strong>Fork a Repository:</strong>
+                <ul>
+                    <li>Click "Fork" on the desired repository page.</li>
+                </ul>
+            </li>
+            <li><strong>Make Changes:</strong>
+                <ul>
+                    <li>Clone your fork locally, make updates, and push them.</li>
+                </ul>
+            </li>
+            <li><strong>Open a Pull Request:</strong>
+                <ul>
+                    <li>Go to the original repository and click "Pull Requests" → "New Pull Request."</li>
+                </ul>
+            </li>
+        </ol>
+        <h4>Resources:</h4>
+        <ul>
+            <li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo" target="_blank">How to Fork a Repo</a>.</li>
+            <li><a href="https://docs.github.com/en/pull-requests" target="_blank">Create a Pull Request </a>.</li>
+        </ul>
+
+      </section>
+      <section id="part-6" class="main-section">
+        <header><h2>6. GitHub Actions</h2></header>
+        <p>Automate your workflow with GitHub Actions.</p>
+        <h4>Steps to Set Up GitHub Actions:</h4>
+        <ol>
+            <li>Go to the "Actions" tab in your repository.</li>
+            <li>Select a pre-built workflow or create your own using <span class="text-bold"><code>.yml</code></span> files.</li>
+            <li>Push the <span class="text-bold"><code>.github/workflows</code></span> directory to your repository.</li>
+        </ol>     
+        <h4>Resources:</h4>
+        <ul>
+            <li><a href="https://docs.github.com/en/actions/writing-workflows/quickstart" target="_blank">Getting Started with Actions</a>.</li>
+        </ul>    
+      </section>
+      <section id="part-7" class="main-section">
+        <header><h2>7. Exploring GitHub Pages</h2></header>
+        <p>Create a personal or project website using GitHub Pages.</p>
+        <h4>Steps to Set Up GitHub Pages:</h4>
+        <ol>
+            <li>Go to your repository settings.</li>
+            <li>Scroll down to the "Pages" section.</li>
+            <li>Choose the branch and directory for your site.</li>
+            <li>Access your site at <span class="text-bold"><code>https://&lt;username&gt;.github.io/&lt;repository&gt;</code></span>.</li>
+        </ol>
+        <h4>Resources:</h4>
+        <ul>
+            <li><a href="https://pages.github.com/" target="_blank">GitHub Pages Guide</a>.</li>
+        </ul>
+      </section>
+      <section id="part-8" class="main-section">
+        <header><h2>8. Security Features</h2></header>
+        <p>Ensure your projects are secure.</p>
+        <h4>Steps for Security:</h4>
+        <ol>
+            <li><strong>Enable Two-Factor Authentication:</strong>
+                <ul>
+                    <li>Go to Settings → Security → 2FA.</li>
+                </ul>
+            </li>
+            <li><strong>Use Dependabot:</strong>
+                <ul>
+                    <li>Enable Dependabot under the "Security" tab in your repository.</li>
+                </ul>
+            </li>
+            <li><strong>Set Permissions:</strong>
+                <ul>
+                    <li>Manage who has access to your repository through "Collaborators & Teams."</li>
+                </ul>
+            </li>
+        </ol>
+        <h4>Resources:</h4>
+        <ul>
+            <li><a href="https://docs.github.com/en/code-security" target="_blank">GitHub Security Features</a>.</li>
+        </ul>   
+      </section>
+      <section id="part-9" class="main-section">
+        <header><h2>9. Advanced GitHub Tools</h2></header>
+        <p>Explore tools for advanced users.</p>
+        <h4>Steps to Use GitHub CLI:</h4>
+        <ol>
+            <li>Download and install the GitHub CLI: <a href="https://cli.github.com/" target="_blank">GitHub CLI</a>.</li>
+            <li>Authenticate using:
+                <div class="code-box">
+                    <div><code>gh auth login</code></div>
+                </div>
+            </li>
+            <li>Use commands like <span class="text-bold"><code>gh repo clone</code></span>, <span class="text-bold"><code>gh issue create</code></span>, etc.</li>
+        </ol>
+        <h4>Resources:</h4>
+        <ul>
+            <li><a href="https://cli.github.com/manual/" target="_blank">GitHub CLI Documentation</a>.</li>
+        </ul>
+      </section>
+      <section id="part-10" class="main-section">
+        <header><h2>10. GitHub for Teams</h2></header>
+        <p>Collaborate effectively with your team.</p>
+        <h4>Steps for Team Collaboration:</h4>
+        <ol>
+            <li><strong>Create an Organization:</strong>
+                <ul>
+                <li>Go to <a href="https://github.com/organizations/plan" target="_blank">GitHub Organizations</a>.</li>
+                </ul>
+            </li>
+            <li><strong>Set Up Teams:</strong>
+                <ul>
+                <li>Use "Settings" to add members and define team roles.</li>
+                </ul>
+            </li>
+            <li><strong>Use GitHub Projects:</strong>
+                <ul>
+                <li>Track tasks visually using the Projects feature.</li>
+                </ul>
+            </li>
+        </ol>
+        <h4>Resources:</h4>
+        <ul>
+            <li><a href="https://docs.github.com/en/organizations" target="_blank">Managing Organizations</a>.</li>
+        </ul>
+
+      </section>
+      <section>
+        <h2>Conclusion</h2>
+        <p>GitHub is a versatile platform that caters to developers of all skill levels. Use this guide to navigate its powerful features and begin your journey toward efficient version control and collaboration. Get started with GitHub today!</p>
+      </section>
+     
+    </main>
+  </body>
+<html>
