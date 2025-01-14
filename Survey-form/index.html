@@ -11,13 +11,13 @@
     <h1 id="title">Unemployment Survey Form</h1>
     <p id="description">The unemployment survey form collects information on individuals'type of employment, duration of unemployment, job search areas, and any challenges faced in securing new employment, to better understand and address the needs of job seekers.</p>
     <form id="survey-form">
-      <fieldset>
+      <fieldset class="box-1">
         <label id="name-label" for="name-label">Enter full name: <input id="name" name="name-label" type="text" placeholder="Enter your full name here" required/></label>
         <label id="email-label" for="email-label">Email: <input id="email" name="email-label" type="email" placeholder="Enter your email" required/></label>
         <label id="number-label" for="number-label">Month: <input id="number" name="number-label" type="number" placeholder="Monthe of unemployment" min="1" max="12"/></label>
         <label for="number-label">Year: <input id="number" name="number-label" type="number" placeholder="Year of unemployment" min="1" max="20"/></label>
       </fieldset>
-      <fieldset>
+      <fieldset class="box-1">
         <label>Work Category: 
           <select id="dropdown">
             <option value="">(select one option)</option>
@@ -26,23 +26,25 @@
           </select>
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="box-1">
         <legend>Employment type: (required)</legend>
         <label for="full-time"><input id="full-time" type="radio" name="employment-type" value="full-time" checked /></label>
         <label for="part-time"><input id="part-time" type="radio" name="employment-type" value="part-time"/></label>
       </fieldset>
-      <fieldset>
+      <fieldset class="box-1">
        <legend>You can choose multiple obtions: </legend>
        <label> <input type="checkbox" value="copenhagen"/> Copenhagen</label>
        <label> <input type="checkbox" value="aarhus"/> Aarhus</label>
        <label> <input type="checkbox" value="aalborg"/> Aalborg</label> 
-      </fieldset>
-      
-      <legend>Ideas and recomendations: </legend>
+      </fieldset class="box-1">
+      <div class="box-1">
+      <legend >Ideas and recomendations: </legend>
       <label for="idea">
-        <textarea id="idea" name="idea" rows="5" cols="50" placeholder="I have an idea about..."></textarea>
+        <textarea class="box-2" id="idea" name="idea" rows="5" cols="50" placeholder="I have an idea about..."></textarea>
       </label>
-      <input id="submit" type="submit" value="submit"/>
+      <br>
+      <input class="box-3" id="submit" type="submit" value="submit"/>
+      </div>
      
 
     </form>

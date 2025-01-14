@@ -6,7 +6,6 @@
   }
   * {
     margin: 0;
-   
   }
   
   body {
@@ -87,16 +86,16 @@
 
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
-    grid-gap: 4rem;
+    grid-gap: 3rem;
     margin-left: 80px;
     margin-right: 80px;
     padding: 4rem 0;
     
   }
   .project-box {
-    background-color: #46484b;
+    /* background-color: #46484b; */
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -106,7 +105,9 @@
     border-width: 3px;
     border-style:ridge;
     box-shadow: 0 0 0 2px #717272;
-    height: fit-content;
+    height: fit-content; 
+   
+    min-height: 250px;
     
     p {
       padding: 15px;
@@ -133,8 +134,6 @@
   background-image: linear-gradient(90deg, #3a3d40 0%, #050505 100%);
 
 
-
-
   h2 {
     font-family: "Press Start 2P", serif;
     font-style: normal;
@@ -142,27 +141,26 @@
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem; 
-  }
-
-  
- 
+  } 
 }
+
+
 .icon {
   display: flex;
   flex-direction: row;
   overflow: hidden;
   
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 .hexagon-wrapper {
-  margin: auto;
+  
   display: flex;
   text-align: initial;
-  width: 200px;
-  height: 200px;
+  width: 130px;
+  height: 130px;
   cursor: pointer;
 }
 
@@ -171,20 +169,20 @@
   width: 34%;
   height: 60%;
   margin: auto;
-  color: white;
-  background: linear-gradient(-180deg, white, #fda3b2);
+  color: rgb(68, 67, 67);
+  background: linear-gradient(-180deg, rgb(134, 94, 94), #8f0a20);
   display: flex;
   align-content: center;
   justify-content: center;
   transition: 0.5s;
 }
 
-.hexagon i {
+.hexagon a {
   z-index: 1;
   margin: auto;
-  font-size: 40px;
-  color: transparent;
-  background: linear-gradient(45deg, #a58fe9, #e37682);
+  font-size: 30px;
+  color: rgb(219, 194, 194);
+  /* background: linear-gradient(45deg, #a0425a, #640c17); */
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -220,6 +218,19 @@
 }
 
 
+/* .connection {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 20rem ;
+  margin-right: 20rem ; 
+  
+
+  form{
+    margin-top: 7rem;
+  }
+} */
+
+
   
   @media only screen and (max-width: 700px) {
   
@@ -230,4 +241,6 @@
     .project-grid {
       grid-template-columns: repeat(1, 1fr) !important;
     }
+
+   
   }
