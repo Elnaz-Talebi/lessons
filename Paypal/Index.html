@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Exercise</title>
+    <link rel="stylesheet" type="text/css" href="./Styles/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body> 
+    <main>
+        <header>
+            <h1>Welcome to my web</h1>
+            <p>Finalize Payment</p>
+        </header>
+        <section class="order-section">
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <div class="line-item">
+                    <span class="total"> Total</span>
+                    <span class="amount">$333 /month</span>
+                </div>
+                <div class="divider"></div>
+                    <div class="line-item">
+                        <span class="total"><b>Total</b></span>
+                        <span class="amount"><b>$100</b></span>
+                    </div>
+                
+            </div>
+            <h3>Payment Methods</h3>
+            <div class="payment-methods"> 
+               
+               <div class="payment-methods-list">
+                   <div class="payment-methods-item selected">
+                    <img src="./images/cards.png" alt="cards-accepted">
+                    <p>Credit / Debit</p>
+
+                   </div>
+                   <div class="payment-methods-item">
+                    <img src="./images/paypal.png" alt="cards-accepted">
+                    <p>PayPal</p>
+                    
+                   </div>
+               </div>
+            </div>
+            <div class="order-inputs">
+                <h3>Card Info</h3>
+                <div class="input-container">
+                    
+                    <div class="card-number ">
+                        <p>Card Number</p>
+                        <div class="question"><span>?</span></div>
+                        <input type="text" placeholder="1234 1234 1234 1234"/>
+                        
+                    </div>
+                    <div class="ex-date ">
+                        <p>Expiry Date</p>
+                        <input type="text" placeholder="MM/YY"/>
+                    </div>
+                    <div class="sec-code ">
+                        <p>Security Code</p>
+                        
+                        <input type="text" placeholder="CVV"/>
+                        <div class="question"><span>?</span></div>
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="button">
+                <button type="button">Buy Now</button>
+            </div>
+            <div class="help">
+                <p>Need Help?</p>
+            </div>
+        </section>
+        
+
+    </main>
+</body>
+</html>
