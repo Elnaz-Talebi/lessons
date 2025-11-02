@@ -1,0 +1,23 @@
+ {
+   
+    {"order": "chicken",
+     "order-id": 1,
+     "price": 200,
+     "drinks": ["coca", "water", "cocktail"],
+     "extra": ["cheese", "lettuce"]}
+    ,
+     {"order": "chicken",
+     "order-id": 2,
+     "price": 200,
+     "drinks": ["coca", "water", "cocktail"],
+     "extra": [ {"name": "lettuce",
+         "price": 10,
+         "ready": true
+     },
+     {"name": "bread",
+         "price": 10,
+         "ready": true
+     }]
+    
+ }
+  }
