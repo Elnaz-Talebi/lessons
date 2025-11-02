@@ -40,7 +40,6 @@
 
 //condition 1-----------------------------------------------------------------
 
-
 // const age = 15;
 // function userAge(age){
 //     if (age>0 && age<=12){
@@ -68,7 +67,6 @@
 //         return `number is odd`
 //     }
 
-
 // };
 // const result = evenNumber(number);
 // console.log(result);
@@ -90,7 +88,6 @@
 // const result = largestNumber(number);
 // console.log(result);
 
-
 //Object 4-------------------------------------------------------------------------
 //Write a function that takes an array of book objects and returns an array of all book titles.
 
@@ -109,32 +106,23 @@
 // const result = bookKeeper(book);
 // console.log(JSON.stringify(result));
 
-
-
 //-----------------------------##LEVEL ONE---------------------------------------------------
 //--1.1 Implement Student Grades
 
-
-function createStudent(names, age, grades){
-    let student ={
-        "name": names,
-        "age": age,
-        "grades": grades
-    }
-    return student
+function createStudent(names, age, grades) {
+  let student = {
+    name: names,
+    age: age,
+    grades: grades,
+  };
+  return student;
 }
 
+createStudent("Eli", 30, "A");
+createStudent("Bela", 25, "B");
+createStudent("Sara", 25, "B");
+createStudent("Mark", 25, "B");
+const result = createStudent("Eli", 30, "A");
 
-createStudent("Eli", 30, "A")
-createStudent("Bela", 25, "B")
-createStudent("Sara", 25, "B")
-createStudent("Mark", 25, "B")
-const result = createStudent("Eli", 30, "A")
-
-console.log(result)
-console.log(result1)
-
-
-
-
-
+console.log(result);
+console.log(result1);

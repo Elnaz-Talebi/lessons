@@ -32,16 +32,12 @@
 // console.log(JSON.stringify(result))
 // --------------------------------------------------
 
-
-
 // You have a group chat application, but who is online!?
 // You want to show your users which of their friends are online and available to chat!
-// Given an input of an array of objects containing usernames, status and time since last activity (in mins), 
+// Given an input of an array of objects containing usernames, status and time since last activity (in mins),
 // create a function to work out who is online, offline and away.
 // If someone is online but their lastActivity was more than 10 minutes ago they are to be considered away.
 // The input data has the following structure:
-
-
 
 // const friends = [
 //   {
@@ -86,14 +82,13 @@
 
 //-------------------------------------------------------------------------
 
-
 // const collection = ["ali", "gholi", "moh", "sara"];
 // // for(let i=0;i<collection.length;i++){
 // //     x(collection[i]);
 // // }
 // collection.forEach((value)=>{});
 // for(let value of collection){
-    
+
 // }
 
 // function x(value,index){
@@ -102,11 +97,9 @@
 
 //-------------------------------------------------------------------------
 
-
 //Return the number (count) of vowels in the given string.
 // We will consider a, e, i, o, u as vowels for this Kata (but not y).
 // The input string will only consist of lower case letters and/or spaces.
-
 
 // function getCount(str) {
 //     let count = 0;
@@ -115,7 +108,7 @@
 //       if(vowels.includes(str[i])){
 //         count++;
 //       }
-      
+
 //     }
 //     return count;
 //   }
@@ -130,7 +123,7 @@
 //         const number = Number.parseInt(strNum[i])
 //       square = number*number
 //       strSqur += square.toString();
-      
+
 //     }
 //     return Number.parseInt(strSqur);
 //   }
@@ -145,9 +138,9 @@
 // highAndLow("1 2 -3 4 5"); // return "5 -3"
 // highAndLow("1 9 3 4 -5"); // return "9 -5"
 
-function highAndLow(numbers){
+function highAndLow(numbers) {
   let numArray = numbers.split(" ").map(Number);
-   let max = Math.max(...numArray);
-   let min = Math.min(...numArray);
-   return `${max} ${min}`
- }
+  let max = Math.max(...numArray);
+  let min = Math.min(...numArray);
+  return `${max} ${min}`;
+}

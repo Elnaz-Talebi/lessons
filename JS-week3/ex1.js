@@ -11,32 +11,31 @@
 // alert( fruits[1] ); // Orange
 // alert( fruits[2] ); // Plum
 
-
 // function bookPlaneTickets() {
 //     // draw
 //     console.log("Plane tickets booked");
 //     requestVacationDays();
 //     // draw
 //   }
-  
+
 //   function bookHotel() {
 //     console.log("Hotel booked");
 //     // draw
 //     planItinerary();
 //     // draw
 //   }
-  
+
 //   function requestVacationDays() {
 //     // draw
 //     console.log("Vacation days requested");
 //     // draw
 //   }
-  
+
 //   function planItinerary() {
 //     console.log("Itinerary done");
 //     // draw
 //   }
-  
+
 //   function planTrip() {
 //     bookPlaneTickets();
 //     // draw
@@ -47,7 +46,6 @@
 //   // draw
 //   planTrip();
 //   // draw
-
 
 // const user1 = {
 //   username:"Eli",
@@ -93,7 +91,6 @@
 // car.isElectric = false;
 // console.log(car);
 
-
 //  const winners = ["michael", "Brian", "Ana", "Niels", "Ana","Brian",];
 //  function countWinner(name) {
 //   let count = 0;
@@ -102,7 +99,7 @@
 //     if (winner === name) {
 //       count++;
 //     }
-//   } 
+//   }
 // return count;
 //  }
 
@@ -149,9 +146,8 @@
 // console.log(myArray.includes(40));
 // console.log(myArray);
 
-
 //  const array2 = [1, 5, 6];
-//  for (let i=0; i<array2.length; i++){    //these piece of code is same as the next for 
+//  for (let i=0; i<array2.length; i++){    //these piece of code is same as the next for
 //   console.log(array2[i]);
 //  };
 
@@ -159,8 +155,6 @@
 //  for (let number of numbers) {           //these for is similar to the previous for
 //   console.log(number);
 // }
-
-
 
 // function bookPlaneTickets() {
 //   console.log("Plane tickets booked");
@@ -189,26 +183,26 @@
 
 const classRoom = {
   student: [
-    {name:"sam",surname:"aj",age:20,address:"dqt"},
-    {name:"sara",surname:"tb",age:21,address:"dwr"},
-    {name:"eli",surname:"ch",age:20,address:"dll"},
-    {name:"kim",surname:"kk",age:22,address:"drd"}
-  ]
+    { name: "sam", surname: "aj", age: 20, address: "dqt" },
+    { name: "sara", surname: "tb", age: 21, address: "dwr" },
+    { name: "eli", surname: "ch", age: 20, address: "dll" },
+    { name: "kim", surname: "kk", age: 22, address: "drd" },
+  ],
   // studentExists: function() {
   //   if (this.name + this.surname)
   // }
-}
+};
 
-//Simple challenge - eliminate all bugs from the supplied code so that the code 
-// runs and outputs the expected value. 
+//Simple challenge - eliminate all bugs from the supplied code so that the code
+// runs and outputs the expected value.
 // Output should be the length of the longest word, as a number.
 //There will only be one 'longest' word.
 
 // function findLongest(str) {
-  
+
 //   var spl = str.split(" ");
 //   var longest = 0;
-  
+
 //   for (var i = 0; i < spl.length; i++) {
 //     if (spl[i].length > longest) {
 //       longest = spl[i].length;
